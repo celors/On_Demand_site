@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Poppins:wght@100;400;800&display=swap%27');
+
+body{
+    margin: 0;
+    font-family: poppins ,'Noto Sans', sans-serif; 
+    background: whitesmoke;
+}
+
+.main{
+    display: flex;
+}
+
+.right-login{
+    display: flex;
+    flex-direction: column;
+}
