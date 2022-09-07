@@ -9,8 +9,63 @@ body{
 .main{
     display: flex;
 }
-
+.left-login{
+    width: 50%;
+    height: 100%;
+}
 .right-login{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+}
+
+.right-login .card-login .middle{
+    gap: 2rem;
     display: flex;
     flex-direction: column;
+}
+
+.right-login .card-login{
+    margin-top: 8.75rem;
+    background: grey;
+    width: 350px;
+    height: 350px;
+    border-radius: 20px;
+}
+
+.right-login .card-login .top{
+    text-align: center;
+}
+
+.right-login .card-login .footer a{
+    margin-top: 3rem;
+    align-items: center;
+    margin-left: 9rem;
+}
+
+.right-login .card-login .middle input{
+    width: 300px;
+    margin-left: 1.3rem;
+    border: none;
+    border-radius: 3.5px;
+    padding: 7.5px;
+    background: gainsboro;
+    font-size: 10pt;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.right-login .card-login .middle label{
+    margin-left: 1.3rem;
+}
+
+.right-login .card-login .footer{
+    margin-top: 3rem;
+} 
+
+.right-login .card-login .top h2{
+    font-size: 35px  ;
 }
